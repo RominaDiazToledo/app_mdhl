@@ -86,3 +86,11 @@ article{
 #select{
     background-color: rgb(30, 218, 30);
 }
+
+footer{
+    background: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -500px;
+}

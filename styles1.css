@@ -17,6 +17,9 @@ header{
     position: relative;
 }
 
+h1{
+    font-size: 55px;
+}
 
 h2{
     width: 100%;
@@ -71,3 +74,10 @@ article{
     margin-top: 60px;
 }
 
+footer{
+    background: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -500px;
+}
