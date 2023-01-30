@@ -16,7 +16,6 @@ header{
     background-image: url(./assets/Images/design1_image2.jpg);
     background-size: cover;
     position: relative;
-    font-size: 25px;
 }
 
 h1{
@@ -84,6 +83,6 @@ article{
     margin-top: 60px;
 }
 
-#active{
+#select{
     background-color: rgb(30, 218, 30);
 }

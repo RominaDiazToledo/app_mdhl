@@ -1,3 +1,118 @@
-h3{
-    color: aquamarine;
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+#container{
+    position: relative;
+    margin: 30px;
+}
+
+header{
+    width: 100%;
+    height: 550px;
+    margin-top: 200px;
+    background-image: url(./assets/Images/design1_image1.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+}
+
+h1{
+    position: absolute;
+    top: -103px;
+    left: 280px;
+    font-size: 50px;
+    color: #FBDD26;
+    border: 2px dashed #FBDD26;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+h2{
+    width: 25%;
+    height: 260px;
+    color: #FBDD26;
+    border: 3px dotted #FBDD26;
+    border-radius: 6px;
+    position: absolute;
+    top: 580px;
+    text-align: center;
+    padding: 30px;
+    font-size: 55px;
+    margin: 10px;
+}
+
+.logo{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: -180px;
+    left: 2%;
+    background-color: azure;
+    border: 5px solid #FBDD26;
+    border-radius: 4px;
+}
+
+nav{
+    width: 35%;
+    height: 70px;
+    position: absolute;
+    top: -173px;
+    left: 70%;
+    margin: 0;
+    }
+
+section{
+    position: absolute;
+    left: 360px;
+    top: 550px;
+    font-size: 18px;
+    margin: 50px;
+    color: #FBDD26;
+    border: 2px solid #FBDD26;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.button{
+    display: inline-block;
+    padding: 8px;
+    margin: 7px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #D63B31;
+    text-decoration: none;
+}
+
+article{
+    padding: 5px;
+}
+
+.article{
+    position: absolute;
+    left: 380px;
+    font-size: 25px;
+    margin-top: 60px;
+    color: #FBDD26;
+    border: 2px solid #FBDD26;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#select{
+    background-color: #FBDD26;
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 5px;
+    text-align: center;
+    color: azure;
+    position: relative;
+    bottom: -500px;
 }
