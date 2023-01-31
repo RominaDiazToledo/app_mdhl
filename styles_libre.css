@@ -57,15 +57,15 @@ h2{
 }
 
 nav{
-    width: 35%;
+    width: 60%;
     height: 70px;
     position: absolute;
     top: -173px;
-    left: 70%;
+    left: 50%;
     margin: 0;
     }
 
-section{
+.section{
     position: absolute;
     left: 360px;
     top: 550px;

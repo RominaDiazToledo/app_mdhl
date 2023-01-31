@@ -53,7 +53,7 @@ nav{
     right: 5px;
     }
 
-section{
+.section{
     position: absolute;
     left: 300px;
     font-size: 25px;
@@ -88,9 +88,5 @@ article{
 }
 
 footer{
-    background: none;
-    color: white;
-    text-align: center;
-    position: relative;
-    bottom: -500px;
+    visibility: hidden;
 }
