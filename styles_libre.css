@@ -56,10 +56,11 @@ h1 {
 }
 
 nav {
-    width: 70%;
+    width: 75%;
     height: 70px;
     display: flex;
     justify-content: flex-end;
+    margin: 0px 15px;
 }
 
 .button {
