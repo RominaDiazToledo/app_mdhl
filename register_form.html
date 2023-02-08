@@ -40,7 +40,7 @@
             <div class="section">
                 <form action="./show_data.html" method="get">
                     <fieldset>
-                        <legend></legend>
+                        <legend> Personal Information</legend>
 
                         <label for="fname">Player's First Name:</label>
                         <input type="text" name="fname" id="fname" required>
@@ -58,68 +58,69 @@
                         <input type="text" name="zipcode" id="zipcode" required><br>
 
                         <label for="birth">Birth Date (mm/dd/yyyy)</label>
-                        <input type="date" id="birth" required>
+                        <input type="date" id="birth" name="birth_date" required>
 
                         <label for="gender">Gender:</label>
                         <select name="gender" id="gender" required>
-                            <option value="famale">Female</option>
-                            <option value="male">Male</option>
                             <option value="" disabled selected>Select gender...</option>
-                        </select>
-                        <legend>Grade:</legend>
-                        <input type="radio" id="pre-school" name="grade" required>
-                        <label for="pre-school">Pre-school</label>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>                            
+                        </select><br>
+                        Grade:
+                        <input type="radio" id="pre" name="grade" value="pre-school" required>
+                        <label for="pre">Pre-school</label>
 
-                        <input type="radio" id="1st" name="grade" required>
-                        <label for="1st">1st</label>
+                        <input type="radio" id="1" name="grade" value="1st" required>
+                        <label for="1">1st</label>
 
-                        <input type="radio" id="2nd" name="grade" required>
-                        <label for="2nd">2nd</label>
+                        <input type="radio" id="2" name="grade" value="2nd" required>
+                        <label for="2">2nd</label>
 
-                        <input type="radio" id="3rd" name="grade" required>
-                        <label for="3rd">3rd</label>
+                        <input type="radio" id="3" name="grade" value="3rd" required>
+                        <label for="3">3rd</label>
 
-                        <input type="radio" id="4th" name="grade" required>
-                        <label for="4th">4th</label>
+                        <input type="radio" id="4" name="grade" value="4th" required>
+                        <label for="4">4th</label>
 
-                        <input type="radio" id="5th" name="grade" required>
-                        <label for="5th">5th</label><br>
+                        <input type="radio" id="5" name="grade" value="5th" required>
+                        <label for="5">5th</label><br>
 
                     </fieldset>
                     <fieldset>
-                        <legend>Which elementary school do you live near? <br> Closest school:</legend>
+                        <legend>Which elementary school do you live near?</legend>
+                        Closest school:<br>
 
-                        <input type="radio" id="school1" name="school" required>
-                        <label for="school1">AJ Katzenmaier</label>
+                        <input type="radio" id="ajk" name="school" value="AJ Katzenmaier" required>
+                        <label for="ajk">AJ Katzenmaier</label>
 
-                        <input type="radio" id="school2" name="school" required>
-                        <label for="school2">Greenbay</label><br>
+                        <input type="radio" id="gbe" name="school" value="Greenbay" required>
+                        <label for="gbe">Greenbay</label><br>
 
-                        <input type="radio" id="school3" name="school" required>
-                        <label for="school3">Howard A Yeager</label>
+                        <input type="radio" id="hay" name="school" value="Howard" required>
+                        <label for="hay">Howard A Yeager</label>
 
-                        <input type="radio" id="school4" name="school" required>
-                        <label for="school4">Marjorie P Hart</label><br>
+                        <input type="radio" id="mph" name="school" value="Marjorie" required>
+                        <label for="mph">Marjorie P Hart</label><br>
 
-                        <input type="radio" id="school5" name="school" required>
-                        <label for="school5">North Elementary</label>
+                        <input type="radio" id="ne" name="school" value="North" required>
+                        <label for="ne">North Elementary</label>
 
-                        <input type="radio" id="school6" name="school" required>
-                        <label for="school6">South Elementary</label><br>
+                        <input type="radio" id="se" name="school" value="South" required>
+                        <label for="se">South Elementary</label><br>
                     </fieldset>
                     <fieldset>
                         <legend>What position(s) do you normaly play? (check all that apply) </legend>
 
-                        <input type="checkbox" id="forward" name="position" value="forward" required>
+                        <input type="checkbox" id="forward" name="position" value="forward">
                         <label for="forward">Forward</label>
 
-                        <input type="checkbox" id="defense" name="position" value="defense" required>
+                        <input type="checkbox" id="defense" name="position" value="defense">
                         <label for="defense">Defense</label><br>
 
-                        <input type="checkbox" id="midfield" name="position" value="midfield" required>
+                        <input type="checkbox" id="midfield" name="position" value="midfield">
                         <label for="midfield">Midfield</label>
 
-                        <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper" required>
+                        <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
                         <label for="goalkeeper">Goalkeeper</label>
                     </fieldset>
 
@@ -149,7 +150,7 @@
 
                     </fieldset>
                     <fieldset>
-                        <legend><strong>Permission to Play</strong><br><br> I, the parent or guardian of the minor
+                        <legend>Permission to Play</legend> I, the parent or guardian of the minor
                             registrant, agree that the registrant and
                             I will abide by all the rules of the Mighty Ducks Hockey League (MDHL).
                             In recognizing the possibility of physical injury associated with hockey and in
@@ -161,16 +162,16 @@
                             participation in the program and/or being transported to or from MDHL sponsored activities
                             which transportation.<br>
                             By signing below, I hereby agree and authorize the above. In addition, by signing below,
-                            I also acknowledge that I read the cancellation policy and agree to its terms.</legend><br>
+                            I also acknowledge that I read the cancellation policy and agree to its terms.<br>
 
                         <label for="name">Parent/Guardian Signature</label>
-                        <input type="text" name="name" id="name" required><br>
+                        <input type="text" name="parent" id="name" required><br>
 
                         <label for="date">Date</label>
-                        <input type="date" id="date" required>
+                        <input type="date" id="date" name="date_signature" required>
                     </fieldset>
-                    <input type="submit" value="Send Form">
-                    <input type="reset" value="Clean Form">
+                    <input class="button"  type="submit" value="Send Form">
+                    <input class="button"  type="reset" value="Clean Form">
                 </form>
 
             </div>
