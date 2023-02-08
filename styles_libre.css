@@ -14,6 +14,10 @@
     height: 100%;
 }
 
+body{
+    overflow-x: hidden
+}
+
 main {
     width: 100%;
 }
@@ -168,4 +172,50 @@ td {
 
 li {
     padding: 5px;
+}
+
+input, select{
+    color: #FBDD26;
+}
+
+.gallery{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid #FBDD26;
+    color: #FBDD26;
+    border-radius: 4px;
+    padding: 30px;
+    margin: 50px;
+}
+
+.gallery >section{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+section>img{
+    width: 170px;
+    height: 170px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section>img:hover{
+    cursor: crosshair;
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.gallery>h3{
+    margin: 20px;
+    display: block;
 }
